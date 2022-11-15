@@ -6,3 +6,15 @@ Users can register as Teacher or student. If user is registered as teacher he/sh
 
 
 This project is created using Node.js and express.js for backend. MongoDB is used as the database. Authentication and authorization is handled using JWT. Bcrypt is used to hash password and files are uploaded using multer. For frontend I have react.js and Bootstrap for UI design.
+
+
+# Tech Stack/Dependencies
+
+| Server Side   | Client Side      |
+| ------------- | ---------------- |
+| Node.js       | React.js         |
+| express.js    | react-bootstrap  |
+|mongoose       | axios            |
+|jsonwebtoken   |                  |
+|Multer         |                  |
+|bcryptjs       |                  |
