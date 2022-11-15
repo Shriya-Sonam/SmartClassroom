@@ -1,0 +1,30 @@
+{
+  "name": "e_classroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Anon",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.3.0",
+    "create-react-app": "^3.4.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "fs-extra": "^9.0.1",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.23",
+    "multer": "^1.4.2",
+    "react-router-bootstrap": "^0.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
